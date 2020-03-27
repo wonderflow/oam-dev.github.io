@@ -22,8 +22,8 @@ jobs:
 
     steps:
       - uses: actions/checkout@v1
-      - name: Build Container Images for amd64
-        run: make docker-build-amd64
+      - name: Test OAM DEV
+        run: curl https://oam.dev
       - name: Slack Notification
         if: failure()
         uses: rtCamp/action-slack-notify@v2.0.0
