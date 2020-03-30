@@ -25,7 +25,7 @@ jobs:
           SLACK_CHANNEL: general
           SLACK_COLOR: '#3278BD'
           SLACK_ICON: https://github.com/rtCamp.png?size=48
-          SLACK_MESSAGE: 'Post Content :rocket:'
-          SLACK_TITLE: oam.dev web failed
+          SLACK_MESSAGE: ' :scream: Could someone check and fix our website :rocket:'
+          SLACK_TITLE: https://oam.dev is unavailable now
           SLACK_USERNAME: wonderflow
           SLACK_WEBHOOK: ${{ secrets.SLACK_WEBHOOK }}
